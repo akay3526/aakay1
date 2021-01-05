@@ -1,37 +1,78 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boostrap Starter Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+   <nav id="header-nav" class="navbar navbar-default">
+     <div class="container">
+       <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand"><h1>Food, LLC</h1></a>
+      </div><!-- /.nav-header -->
+      <div id="menu-collapsable-nav" class="collapse navbar-collapse">
+        <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">      
+          <li>            
+            <a href="#">Chicken</a>
+          </li>
+          <li>            
+           <a href="#">Beef</a>
+         </li>
+         <li>            
+          <a href="#">Sushi</a>    
+        </li>
+      </ul>
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container menu-container">
 
-You can use the [editor on GitHub](https://github.com/akay3526/aakay1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <h1 class="text-center main-title">Our Menu</h1>
+  
+  <div class="row">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <div class="col-lg-12 menu-item">     
+     <h4 class="menu-title text-center">Chicken</h4>
+     <p class="text-justify">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate eligendi nam mollitia repudiandae debitis explicabo quibusdam consectetur id neque! Accusamus eum non veniam in dolor, porro mollitia recusandae modi eaque expedita maiores nobis eos aliquam reiciendis amet repudiandae nihil praesentium laudantium quia corporis maxime architecto, dolores voluptatem vero. Rem saepe molestias perspiciatis explicabo sapiente nulla aut dolores inventore dignissimos quos doloribus laborum quas odit sed ipsum perferendis, voluptatum ducimus unde. Veritatis modi numquam, nobis velit sunt sed id fugit sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi libero deleniti repellat veniam quos alias! Recusandae excepturi expedita cumque vitae modi assumenda vero possimus quod rerum nisi a ullam repellat cum ex ipsam, quis voluptatibus omnis rem neque praesentium iure at ducimus! Repudiandae perspiciatis dolor cum minus voluptates asperiores nam eos aperiam, fugiat corporis. Doloremque, officiis itaque quia dolores vero reiciendis sapiente consectetur beatae? Unde vel error laboriosam ut eum consectetur consequatur reiciendis placeat temporibus alias officia quis nihil aliquid accusamus dicta, sequi autem, rem distinctio, corrupti pariatur et. Deserunt!
+     </p>
+   </div>
+   <div class="col-lg-12 menu-item">     
+     <h4 class="menu-title text-center">Beef</h4>
+     <p class="text-justify">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate eligendi nam mollitia repudiandae debitis explicabo quibusdam consectetur id neque! Accusamus eum non veniam in dolor, porro mollitia recusandae modi eaque expedita maiores nobis eos aliquam reiciendis amet repudiandae nihil praesentium laudantium quia corporis maxime architecto, dolores voluptatem vero. Rem saepe molestias perspiciatis explicabo sapiente nulla aut dolores inventore dignissimos quos doloribus laborum quas odit sed ipsum perferendis, voluptatum ducimus unde. Veritatis modi numquam, nobis velit sunt sed id fugit sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi libero deleniti repellat veniam quos alias! Recusandae excepturi expedita cumque vitae modi assumenda vero possimus quod rerum nisi a ullam repellat cum ex ipsam, quis voluptatibus omnis rem neque praesentium iure at ducimus! Repudiandae perspiciatis dolor cum minus voluptates asperiores nam eos aperiam, fugiat corporis. Doloremque, officiis itaque quia dolores vero reiciendis sapiente consectetur beatae? Unde vel error laboriosam ut eum consectetur consequatur reiciendis placeat temporibus alias officia quis nihil aliquid accusamus dicta, sequi autem, rem distinctio, corrupti pariatur et. Deserunt!
+     </p>
+   </div>
 
-### Markdown
+   <div class="col-lg-12 menu-item">     
+     <h4 class="menu-title text-center">Sushi</h4>
+     <p class="text-justify">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate eligendi nam mollitia repudiandae debitis explicabo quibusdam consectetur id neque! Accusamus eum non veniam in dolor, porro mollitia recusandae modi eaque expedita maiores nobis eos aliquam reiciendis amet repudiandae nihil praesentium laudantium quia corporis maxime architecto, dolores voluptatem vero. Rem saepe molestias perspiciatis explicabo sapiente nulla aut dolores inventore dignissimos quos doloribus laborum quas odit sed ipsum perferendis, voluptatum ducimus unde. Veritatis modi numquam, nobis velit sunt sed id fugit sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi libero deleniti repellat veniam quos alias! Recusandae excepturi expedita cumque vitae modi assumenda vero possimus quod rerum nisi a ullam repellat cum ex ipsam, quis voluptatibus omnis rem neque praesentium iure at ducimus! Repudiandae perspiciatis dolor cum minus voluptates asperiores nam eos aperiam, fugiat corporis. Doloremque, officiis itaque quia dolores vero reiciendis sapiente consectetur beatae? Unde vel error laboriosam ut eum consectetur consequatur reiciendis placeat temporibus alias officia quis nihil aliquid accusamus dicta, sequi autem, rem distinctio, corrupti pariatur et. Deserunt!
+     </p>
+   </div>
+ </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+</div>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akay3526/aakay1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</header>
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
